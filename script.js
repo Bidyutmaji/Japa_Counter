@@ -7,6 +7,6 @@ function onClick() {
 
 document.addEventListener('volumeupbutton', () => {
     clicks += 1;
-document.getElementById("clicks").innerHTML = clicks;
+    document.getElementById("clicks").innerHTML = clicks;
     //Do something here
   }, false);
